@@ -75,6 +75,8 @@ echo "\nInstalando chrome...\n"
 dpkg -i google-chrome-stable_current_amd64.deb
 echo "\nInstalando google talk...\n"
 dpkg -i google-talkplugin_current_amd64.deb
+echo "\nDescargando skype...\n"
+wget http://www.skype.com/es/download-skype/skype-for-linux/downloading/?type=ubuntu64
 echo "\nInstalando skype...\n"
 dpkg -i skype-ubuntu-precise_4.1.0.20-1_i386.deb
 echo "\nInstalando teamViewer...\n"
