@@ -1,0 +1,5 @@
+https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_1.6.0_i386.deb
+http://www.xmind.net/xmind/downloads/xmind-linux-3.3.1.201212250029_i386.deb
+http://download.teamviewer.com/download/teamviewer_linux.deb
+http://www.skype.com/es/download-skype/skype-for-linux/downloading/?type=ubuntu64
+
