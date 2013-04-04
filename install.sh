@@ -22,7 +22,7 @@ echo -e "\n---------------------------------------------------------\n"
 apt-get install -y \
 yakuake \
 bzr \
-meld \
+ield \
 vlc \
 geany \
 openssh-client \
@@ -47,9 +47,9 @@ doxygen \
 unrar \
 unetbootin \
 rst2pdf \
+python-setuptools
 #google-chrome-stable \
 #google-talkplugin \
-python-setuptools
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando autopep8...\n"
