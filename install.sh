@@ -22,7 +22,7 @@ echo -e "\n---------------------------------------------------------\n"
 apt-get install --force--force-yeses \
 yakuake \
 bzr \
-ield \
+meld \
 vlc \
 geany \
 openssh-client \
@@ -36,7 +36,6 @@ geany-plugins \
 aptitude \
 kazam \
 unetbootin \
-python3-pip \
 python-pip \
 pep8 \
 vim \
