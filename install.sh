@@ -19,7 +19,7 @@ echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando paquetes...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force--force-yeses \
+apt-get install --force-yes \
 yakuake \
 bzr \
 meld \
