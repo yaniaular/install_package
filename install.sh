@@ -7,19 +7,19 @@ echo -e "\n---------------------------------------------------------\n"
 echo -e "\nActualizando repositorios\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get -y update
+apt-get --force-yes update
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nActualizar versiones repositorios...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get -y upgrade
+apt-get --force-yes upgrade
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando paquetes...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -y \
+apt-get install --force--force-yeses \
 yakuake \
 bzr \
 ield \
@@ -76,14 +76,14 @@ dpkg -i *.deb
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando dependencias\n" 
 echo -e "\n---------------------------------------------------------\n"
-apt-get install -y -f
+apt-get install --force-yes -f
 
 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nDe OpenERP - Instalando dependencias\n" 
 echo -e "\n---------------------------------------------------------\n"
-apt-get install -y \
+apt-get install --force-yes \
 graphviz \
 ghostscript \
 postgresql-client \
@@ -107,7 +107,7 @@ python-vobject \
 python-webdav \
 python-werkzeug \
 python-xlwt \
-python-yaml \
+python--force-yesaml \
 python-imaging \
 python-matplotlib
 
@@ -119,7 +119,7 @@ easy_install unittest2
 easy_install psutil 
 easy_install 
 
-apt-get install -y -f
+apt-get install --force-yes -f
 
 exit
 #mkdir /home/$USUARIO/instancias
