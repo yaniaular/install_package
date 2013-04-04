@@ -3,27 +3,21 @@
 USUARIO=yanina
 distro=32
 
-echo ""
-echo "---------------------------------------------------------"
-echo "\nActualizando repositorios\n"
-echo "---------------------------------------------------------"
-echo ""
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nActualizando repositorios\n"
+echo -e "\n---------------------------------------------------------\n"
 
 apt-get -y update
 
-echo ""
-echo "---------------------------------------------------------"
-echo "Actualizar versiones repositorios..."
-echo "---------------------------------------------------------"
-echo ""
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nActualizar versiones repositorios...\n"
+echo -e "\n---------------------------------------------------------\n"
 
 apt-get -y upgrade
 
-echo ""
-echo "---------------------------------------------------------"
-echo "Instalando paquetes..."
-echo "---------------------------------------------------------"
-echo ""
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nInstalando paquetes...\n"
+echo -e "\n---------------------------------------------------------\n"
 
 apt-get install -y \
 yakuake \
@@ -57,50 +51,38 @@ rst2pdf \
 #google-talkplugin \
 python-setuptools
 
-echo "---------------------------------------------------------"
-echo "\nInstalando autopep8...\n"
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nInstalando autopep8...\n"
+echo -e "\n---------------------------------------------------------\n"
 pip install autopep8
-echo "---------------------------------------------------------"
 
 
 
-echo ""
-echo "---------------------------------------------------------"
-echo "Instalando Sphinx"
-echo "---------------------------------------------------------"
-echo ""
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nInstalando Sphinx\n"
+echo -e "\n---------------------------------------------------------\n"
 easy_install -U Sphinx
 
-echo ""
-echo "---------------------------------------------------------"
-echo "Descargar paquetes en "
-echo $distro
-echo " bits"
-echo "---------------------------------------------------------"
-echo ""
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nDescargar paquetes en " $distro " bits\n"
+echo -e "\n---------------------------------------------------------\n"
 wget -i $distro.txt
 
-echo ""
-echo "---------------------------------------------------------"
-echo "\nInstalando paquetes descargados...\n"
-echo "---------------------------------------------------------"
-echo ""
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nInstalando paquetes descargados...\n"
+echo -e "\n---------------------------------------------------------\n"
 dpkg -i *.deb
 
-echo ""
-echo "---------------------------------------------------------"
-echo "\nInstalando dependencias " 
-echo "---------------------------------------------------------"
-echo ""
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nInstalando dependencias\n" 
+echo -e "\n---------------------------------------------------------\n"
 apt-get install -y -f
 
 
 
-echo ""
-echo "---------------------------------------------------------"
-echo "\nDe OpenERP - Instalando dependencias " 
-echo "---------------------------------------------------------"
-echo ""
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nDe OpenERP - Instalando dependencias\n" 
+echo -e "\n---------------------------------------------------------\n"
 apt-get install -y \
 graphviz \
 ghostscript \
@@ -129,12 +111,9 @@ python-yaml \
 python-imaging \
 python-matplotlib
 
-echo ""
-echo "---------------------------------------------------------"
-echo "\nInstalando modulos python para OpenERP " 
-echo "---------------------------------------------------------"
-echo ""
-apt-get install -y python-docutils
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\nInstalando modulos python para OpenERP\n" 
+echo -e "\n---------------------------------------------------------\n"
 easy_install mock
 easy_install unittest2
 easy_install psutil 
