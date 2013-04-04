@@ -55,6 +55,7 @@ unetbootin \
 rst2pdf \
 google-chrome-stable \
 google-talkplugin \
+python-setuptools
 
 echo "---------------------------------------------------------"
 echo "\nInstalando autopep8...\n"
@@ -70,15 +71,34 @@ echo "---------------------------------------------------------"
 echo ""
 easy_install -U Sphinx
 
-wget -i -c $distro.txt
+echo ""
+echo "---------------------------------------------------------"
+echo "Descargar paquetes"
+echo "---------------------------------------------------------"
+echo ""
+wget -i $distro.txt
+
+echo ""
+echo "---------------------------------------------------------"
 echo "\nInstalando paquetes descargados...\n"
+echo "---------------------------------------------------------"
+echo ""
 dpkg -i *.deb
 
-apt-get install -y -f
+echo ""
 echo "---------------------------------------------------------"
+echo "\nInstalando dependencias " 
+echo "---------------------------------------------------------"
+echo ""
+apt-get install -y -f
 
 
 
+echo ""
+echo "---------------------------------------------------------"
+echo "\nDe OpenERP - Instalando dependencias " 
+echo "---------------------------------------------------------"
+echo ""
 apt-get install -y \
 graphviz \
 ghostscript \
@@ -107,6 +127,11 @@ python-yaml \
 python-imaging \
 python-matplotlib
 
+echo ""
+echo "---------------------------------------------------------"
+echo "\nInstalando modulos python para OpenERP " 
+echo "---------------------------------------------------------"
+echo ""
 apt-get install -y python-docutils
 easy_install mock
 easy_install unittest2
