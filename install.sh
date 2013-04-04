@@ -53,8 +53,8 @@ doxygen \
 unrar \
 unetbootin \
 rst2pdf \
-google-chrome-stable \
-google-talkplugin \
+#google-chrome-stable \
+#google-talkplugin \
 python-setuptools
 
 echo "---------------------------------------------------------"
@@ -73,7 +73,9 @@ easy_install -U Sphinx
 
 echo ""
 echo "---------------------------------------------------------"
-echo "Descargar paquetes"
+echo "Descargar paquetes en "
+echo $distro
+echo " bits"
 echo "---------------------------------------------------------"
 echo ""
 wget -i $distro.txt
