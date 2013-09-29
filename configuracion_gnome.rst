@@ -35,4 +35,21 @@ Destildar la opción ``Activar notificaiones emergente al inicio`` en las perfer
 
 Vamos al menu ``Region e idioma>Distribuciones>Agregar tilde muerta``.
 
+5. Configurar o agregar nueva región o locale
+---------------------------------------------
+
+``vim /etc/locale.gen``
+
+Descomentar el idioma que queramos
+
+``sudo locale -a``
+
+``sudo locale-gen``
+
+Luego vamos al menú Idioma y Region y configuramos el idioma nuevo.
+
+6. Clave de root
+----------------
+
+``sudo passwd``
 

@@ -101,7 +101,27 @@ echo -e "\n---------------------------------------------------------\n"
 echo -e "\n kazam...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes kazam 
+#add-apt-repository ppa:and471/kazam-daily-stable 
+#sudo apt-get update && sudo apt-get install kazam
+#apt-get install -f --force-yes kazam 
+
+#Instalar bzr
+#sudo aptitude install bzr
+#
+#Ahora buscar el código usando el bzr
+#bzr branch lp:kazam
+#
+#Dependencias necesarias
+#sudo aptitude install libkeybinder0 libx264-98 python-keybinder python-rsvg python-xlib python-distutils-extra python-pycurl
+#
+#El script de configuración:
+#cd kazam && python setup.py install
+#
+#Para poder ejecutarlo
+#sudo ln -s /usr/local/share/kazam/ /usr/share/kazam
+#
+#Y ya que lo instalamos, lo probamos
+#kazam
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n unetbootin...\n"
@@ -182,14 +202,11 @@ echo -e "\n---------------------------------------------------------\n"
 apt-get install -f --force-yes qbzr
 
 echo -e "\n---------------------------------------------------------\n"
-echo -e "\n texlibe-full...\n"
+echo -e "\n texlive-full...\n"
 echo -e "\n---------------------------------------------------------\n"
 
 apt-get install -f --force-yes texlive-full 
-apt-get install --force-yes 
-apt-get install --force-yes 
-apt-get install --force-yes 
-apt-get install --force-yes 
+#apt-get install --force-yes 
 #google-chrome-stable \
 #google-talkplugin \
 
@@ -208,24 +225,24 @@ easy_install -U Sphinx
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nDescargar paquetes en " $distro " bits\n"
 echo -e "\n---------------------------------------------------------\n"
-wget -i $distro.txt
+#wget -i $distro.txt
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando paquetes descargados...\n"
 echo -e "\n---------------------------------------------------------\n"
-dpkg -i *.deb
+#dpkg -i *.deb
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando dependencias\n" 
 echo -e "\n---------------------------------------------------------\n"
-apt-get install --force-yes -f
+#apt-get install --force-yes -f
 
 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nDe OpenERP - Instalando dependencias\n" 
 echo -e "\n---------------------------------------------------------\n"
-apt-get install --force-yes \
+apt-get install \
 graphviz \
 ghostscript \
 postgresql-client \
@@ -259,7 +276,7 @@ echo -e "\n---------------------------------------------------------\n"
 easy_install mock
 easy_install unittest2
 easy_install psutil 
-easy_install 
+#easy_install 
 
 apt-get install --force-yes -f
 
