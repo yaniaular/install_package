@@ -23,169 +23,169 @@ echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Guake...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes guake 
+apt-get install -f --force-yes guake 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Bazaar...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes bzr 
+apt-get install -f --force-yes bzr 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Meld...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes meld 
+apt-get install -f --force-yes meld 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n VLC...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes vlc 
+apt-get install -f --force-yes vlc 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Geany...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes geany 
+apt-get install -f --force-yes geany 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Openssh-client...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes openssh-client 
+apt-get install -f --force-yes openssh-client 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Texmaker...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes texmaker 
+apt-get install -f --force-yes texmaker 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Qbzr...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes qbzr 
+apt-get install -f --force-yes qbzr 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n bzr-explorer...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes bzr-explorer 
+apt-get install -f --force-yes bzr-explorer 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n bzrtools...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes bzrtools 
+apt-get install -f --force-yes bzrtools 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n gimp...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes gimp 
+apt-get install -f --force-yes gimp 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n geany-plugins...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes geany-plugins 
+apt-get install -f --force-yes geany-plugins 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n aptitude...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes aptitude 
+apt-get install -f --force-yes aptitude 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n kazam...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes kazam 
+apt-get install -f --force-yes kazam 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n unetbootin...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes unetbootin 
+apt-get install -f --force-yes unetbootin 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n python-pip...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes python-pip 
+apt-get install -f --force-yes python-pip 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n pep8...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes pep8 
+apt-get install -f --force-yes pep8 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n vim...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes vim 
+apt-get install -f --force-yes vim 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n virtualbox...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes virtualbox 
+apt-get install -f --force-yes virtualbox 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n pgadmin3...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes pgadmin3 
+apt-get install -f --force-yes pgadmin3 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n make...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes make 
+apt-get install -f --force-yes make 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n doxygen...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes doxygen 
+apt-get install -f --force-yes doxygen 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n unrar...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes unrar 
+apt-get install -f --force-yes unrar 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n unetbootin...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes unetbootin 
+apt-get install -f --force-yes unetbootin 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n rst2pdf...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes rst2pdf 
+apt-get install -f --force-yes rst2pdf 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n python-setuptools...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes python-setuptools
+apt-get install -f --force-yes python-setuptools
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n qbzr...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes qbzr
+apt-get install -f --force-yes qbzr
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n texlibe-full...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes texlive-full 
+apt-get install -f --force-yes texlive-full 
 apt-get install --force-yes 
 apt-get install --force-yes 
 apt-get install --force-yes 
