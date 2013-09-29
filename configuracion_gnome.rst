@@ -29,3 +29,10 @@ PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 --------------------------------------------------------------------
 
 Destildar la opción ``Activar notificaiones emergente al inicio`` en las perferencias de Guake.
+
+4. Configurar distribución del teclado
+--------------------------------------
+
+Vamos al menu ``Region e idioma>Distribuciones>Agregar tilde muerta``.
+
+
