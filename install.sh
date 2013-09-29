@@ -1,7 +1,7 @@
 ﻿#!/bin/bash
 
 USUARIO=yanina
-distro=32
+distro=64
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nActualizando repositorios\n"
@@ -19,34 +19,38 @@ echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando paquetes...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install --force-yes \
-yakuake \
-bzr \
-meld \
-vlc \
-geany \
-openssh-client \
-texlive-full \
-texmaker \
-qbzr \
-bzr-explorer \
-bzrtools \
-gimp \
-geany-plugins \
-aptitude \
-kazam \
-unetbootin \
-python-pip \
-pep8 \
-vim \
-virtualbox \
-pgadmin3 \
-make \
-doxygen \
-unrar \
-unetbootin \
-rst2pdf \
-python-setuptools
+apt-get install --force-yes guake 
+apt-get install --force-yes bzr 
+apt-get install --force-yes meld 
+apt-get install --force-yes vlc 
+apt-get install --force-yes geany 
+apt-get install --force-yes openssh-client 
+apt-get install --force-yes texmaker 
+apt-get install --force-yes qbzr 
+apt-get install --force-yes bzr-explorer 
+apt-get install --force-yes bzrtools 
+apt-get install --force-yes gimp 
+apt-get install --force-yes geany-plugins 
+apt-get install --force-yes aptitude 
+apt-get install --force-yes kazam 
+apt-get install --force-yes unetbootin 
+apt-get install --force-yes python-pip 
+apt-get install --force-yes pep8 
+apt-get install --force-yes vim 
+apt-get install --force-yes virtualbox 
+apt-get install --force-yes pgadmin3 
+apt-get install --force-yes make 
+apt-get install --force-yes doxygen 
+apt-get install --force-yes unrar 
+apt-get install --force-yes unetbootin 
+apt-get install --force-yes rst2pdf 
+apt-get install --force-yes python-setuptools
+apt-get install --force-yes qbzr
+apt-get install --force-yes texlive-full 
+apt-get install --force-yes 
+apt-get install --force-yes 
+apt-get install --force-yes 
+apt-get install --force-yes 
 #google-chrome-stable \
 #google-talkplugin \
 
