@@ -16,6 +16,11 @@ OpenERP Object
 Dropbox
 Delicious
 
+git
+youtube-dl
+firefox
+filezilla
+
 Configurar que la laptop se duerma al bajar la tapa
 
 sudo apt-get update

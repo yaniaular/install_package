@@ -209,6 +209,11 @@ apt-get install -f --force-yes texlive-full
 #apt-get install --force-yes 
 #google-chrome-stable \
 #google-talkplugin \
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\n bpython...\n"
+echo -e "\n---------------------------------------------------------\n"
+
+apt-get install -f --force-yes bpython 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando autopep8...\n"

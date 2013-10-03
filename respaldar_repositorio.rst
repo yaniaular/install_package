@@ -17,3 +17,6 @@ Se puede configurar el archivo /etc/apt/source.list
 o tambien entrar al synaptic y en settings>repositories
 configurar los repositorios que se utilizarán
 
+5. configuracion de bazaar en .bazaar:
+
+Se pueden borrar las configuraciones de colo-ify
