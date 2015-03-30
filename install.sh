@@ -283,6 +283,12 @@ easy_install unittest2
 easy_install psutil 
 #easy_install 
 
+
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\n Install gedit \n" 
+echo -e "\n---------------------------------------------------------\n"
+apt-get install gedit
+
 apt-get install --force-yes -f -y
 
 exit
