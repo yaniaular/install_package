@@ -289,6 +289,11 @@ echo -e "\n Install gedit \n"
 echo -e "\n---------------------------------------------------------\n"
 apt-get install gedit
 
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\n Generate SSH KEY \n" 
+echo -e "\n---------------------------------------------------------\n"
+ssh-keygen
+
 apt-get install --force-yes -f -y
 
 exit
