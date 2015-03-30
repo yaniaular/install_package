@@ -29,73 +29,73 @@ echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Bazaar...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes bzr 
+apt-get install -f --force-yes -y bzr 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Meld...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes meld 
+apt-get install -f --force-yes -y meld 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n VLC...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes vlc 
+apt-get install -f --force-yes -y vlc 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Geany...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes geany 
+apt-get install -f --force-yes -y geany 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Openssh-client...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes openssh-client 
+apt-get install -f --force-yes -y openssh-client 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Texmaker...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes texmaker 
+apt-get install -f --force-yes -y texmaker 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n Qbzr...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes qbzr 
+apt-get install -f --force-yes -y qbzr 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n bzr-explorer...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes bzr-explorer 
+apt-get install -f --force-yes -y bzr-explorer 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n bzrtools...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes bzrtools 
+apt-get install -f --force-yes -y bzrtools 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n gimp...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes gimp 
+apt-get install -f --force-yes -y gimp 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n geany-plugins...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes geany-plugins 
+apt-get install -f --force-yes -y geany-plugins 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n aptitude...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes aptitude 
+apt-get install -f --force-yes -y aptitude 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n kazam...\n"
@@ -127,85 +127,85 @@ echo -e "\n---------------------------------------------------------\n"
 echo -e "\n unetbootin...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes unetbootin 
+apt-get install -f --force-yes -y unetbootin 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n python-pip...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes python-pip 
+apt-get install -f --force-yes -y python-pip 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n pep8...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes pep8 
+apt-get install -f --force-yes -y pep8 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n vim...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes vim 
+apt-get install -f --force-yes -y vim 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n virtualbox...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes virtualbox 
+apt-get install -f --force-yes -y virtualbox 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n pgadmin3...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes pgadmin3 
+apt-get install -f --force-yes -y pgadmin3 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n make...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes make 
+apt-get install -f --force-yes -y make 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n doxygen...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes doxygen 
+apt-get install -f --force-yes -y doxygen 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n unrar...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes unrar 
+apt-get install -f --force-yes -y unrar 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n unetbootin...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes unetbootin 
+apt-get install -f --force-yes -y unetbootin 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n rst2pdf...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes rst2pdf 
+apt-get install -f --force-yes -y rst2pdf 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n python-setuptools...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes python-setuptools
+apt-get install -f --force-yes -y python-setuptools
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n qbzr...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes qbzr
+apt-get install -f --force-yes -y qbzr
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\n texlive-full...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes texlive-full 
+apt-get install -f --force-yes -y texlive-full 
 #apt-get install --force-yes 
 #google-chrome-stable \
 #google-talkplugin \
@@ -213,7 +213,7 @@ echo -e "\n---------------------------------------------------------\n"
 echo -e "\n bpython...\n"
 echo -e "\n---------------------------------------------------------\n"
 
-apt-get install -f --force-yes bpython 
+apt-get install -f --force-yes -y bpython 
 
 echo -e "\n---------------------------------------------------------\n"
 echo -e "\nInstalando autopep8...\n"
@@ -283,7 +283,7 @@ easy_install unittest2
 easy_install psutil 
 #easy_install 
 
-apt-get install --force-yes -f
+apt-get install --force-yes -f -y
 
 exit
 #mkdir /home/$USUARIO/instancias
