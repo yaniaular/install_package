@@ -20,3 +20,13 @@ configurar los repositorios que se utilizarán
 5. configuracion de bazaar en .bazaar:
 
 Se pueden borrar las configuraciones de colo-ify
+
+/openerp-server -r openerp -w openerp
+--addons-path=../addons/,../web/addons/,../7.0-mail_hu-yani,../cms,../oml70 -u user_story_conf -d
+mail  --xmlrpc-port=30000 --no-xmlrpcs --no-netrp
+
+./openerp-server -c hu.cfg -u user_story_long_term -d hu
+
+6. Password internet wifi
+
+/etc/NetworkManager/system-connections
