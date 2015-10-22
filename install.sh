@@ -313,6 +313,17 @@ apt-get install -f -y texlive-full
 
 sudo python-argcomplete-check-easy-install-script #activar autocompletado en python.
 
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\n zsh...\n"
+echo -e "\n---------------------------------------------------------\n"
+
+apt-get install -f -y zsh 
+apt-get install -f -y openssh-server 
+apt-get install -f -y firefox 
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
 exit
 
 #This script is part of the Python argcomplete package (https://github.com/kislyuk/argcomplete).
