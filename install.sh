@@ -323,6 +323,11 @@ apt-get install -f -y firefox
 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\n tmux...\n"
+echo -e "\n---------------------------------------------------------\n"
+
+apt-get install -f -y tmux 
 
 exit
 
