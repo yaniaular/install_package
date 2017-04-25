@@ -329,6 +329,26 @@ echo -e "\n---------------------------------------------------------\n"
 
 apt-get install -f -y tmux 
 
+echo -e "\n---------------------------------------------------------\n"
+echo -e "\n Install docker...\n"
+echo -e "\n---------------------------------------------------------\n"
+
+apt-get -y -f install \
+  apt-transport-https \
+  ca-certificates \
+  curl
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+add-apt-repository \
+       "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+       $(lsb_release -cs) \
+       stable"
+
+apt-get update
+
+apt-get -y install docker-ce
+
 exit
 
 #This script is part of the Python argcomplete package (https://github.com/kislyuk/argcomplete).
