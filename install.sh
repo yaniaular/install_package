@@ -110,6 +110,13 @@ echo -e "\n---------------------------------------------------------\n"
 apt-get install -f -y unetbootin 
 
 echo -e "\n---------------------------------------------------------\n"
+echo -e "\n python3...\n"
+echo -e "\n---------------------------------------------------------\n"
+apt-get install -f -y python3 
+apt-get install python3-pip
+apt-get install node-less
+
+echo -e "\n---------------------------------------------------------\n"
 echo -e "\n python-pip...\n"
 echo -e "\n---------------------------------------------------------\n"
 apt-get install -f -y python-pip 
@@ -206,6 +213,7 @@ echo -e "\n---------------------------------------------------------\n"
 apt-get install -y \
 graphviz \
 ghostscript \
+postgresql \
 postgresql-client \
 python-dateutil \
 python-feedparser python-gdata \

@@ -13,15 +13,19 @@ Establecer password al usuario root
 
 ``sudo passwd``
 
+Generar llaves ssh
+------------------
+
+ssh-keygen
+
 
 Guardar historial de comandos
 -----------------------------
 
 para que en yakuake o guake permita guardar el historial automatico cada vez que abras una pestaña
 se puede editar el archivo ~/.bashrc y colocar las siguiente lines:
-
-shopt -s histappend                                                                                 
-PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+                                                                               
+export PROMPT_COMMAND="history -a"
 
 Configurar distribución del teclado
 -----------------------------------
@@ -106,3 +110,9 @@ Bug, Guake no inicia a pesar de tenerlo en aplicaciones de inicio
 
 Destildar la opción ``Activar notificaiones emergente al inicio`` en las perferencias de Guake.
 
+Copiar y pegar en vim
+---------------------
+
+agregar lo siguiente a tu ~/.vimrc para crear un alias entre ambos registros:
+
+set clipboard=unnamedplus
