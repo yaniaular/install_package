@@ -18,6 +18,11 @@ Generar llaves ssh
 
 ssh-keygen
 
+Configurar git
+--------------
+
+git config --global user.email "yanina.aular@vauxoo.com"
+git config --global user.name "Yanina Aular" 
 
 Guardar historial de comandos
 -----------------------------
@@ -116,3 +121,15 @@ Copiar y pegar en vim
 agregar lo siguiente a tu ~/.vimrc para crear un alias entre ambos registros:
 
 set clipboard=unnamedplus
+
+Desencriptar home en un live
+----------------------------
+
+You can use ecryptfs-recover-private.
+
+ecryptfs-recover-private /media/<UUID>/home/.ecryptfs/<USERNAME>/.Private
+It will promt for the mount password, unlock the wrapped-passphrase 
+and mount the directory in read only mode under /tmp/ with just 
+single command. Use the flag -rw to mount the encrypted filesystem as read and write.
+
+http://manpages.ubuntu.com/manpages/trusty/en/man1/ecryptfs-recover-private.1.html
